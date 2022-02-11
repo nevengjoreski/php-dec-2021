@@ -1,0 +1,24 @@
+// You want to write a number out of plastic, and you have plastic sets of digits '0' to '9'.
+// Each set has 10 digits, each digit exactly once. Given a number, you need to count the
+// number of sets that have to be used to create the number.
+
+// e.g.
+// Number 10, can be written with '1' and '0' both of which are from one set.
+// Number 100, in order to write the two zeros, you need to use two sets.
+// At one point, you noticed that numbers 6 and 9 are the same, so you can easily reuse 6 as
+// 9 and vice versa.
+// e.g.
+// Number 166, can be written by using one set, with numbers '1', '6' and then '9' rotated by
+// 180 degrees.
+// Input parameters:
+// number - a number to be written with the plastic digits.
+// Constraints:
+// number will be between 0 and 1000000000 (one billion).
+// Return:
+// The count of plastic sets needed to write the number.
+// Class Name:
+// PlasticNumbers
+// Method signature:
+// public int countSets(int number)
+
+goreskineno@hotmail.com
